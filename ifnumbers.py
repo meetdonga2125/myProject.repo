@@ -1,3 +1,5 @@
+# This is my first github programme
+
 n = int(input("Enter a number: "))
 
 if(n>0):
