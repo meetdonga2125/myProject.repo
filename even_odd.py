@@ -1,6 +1,6 @@
-n = int(input("Enter a value of n: "))
+n = int(input("Enter a value of N: "))
 
 if(n%2==0):
-    print("N is even568 number")
+    print("N is even number")
 else:
     print("N is Odd number")
