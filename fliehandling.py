@@ -51,17 +51,17 @@ data.close()
    
 print("Even File Content") 
 data = open("even.txt", "r")
-print(even.read())
+print(data.read())
 data.close()     
    
 print("odd File Content") 
 data = open("odd.txt", "r")
-print(odd.read())
+print(data.read())
 data.close()     
    
 print("prime File Content") 
 data = open("prime.txt", "r")
-print(prime.read())
+print(data.read())
 data.close()     
             
    
