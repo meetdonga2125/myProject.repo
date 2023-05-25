@@ -7,7 +7,7 @@
 first_str = "Python"
 sec_str = "Programming"
 
-new_first_str = sec_str[:2] + first_str[2:]
+new_first_str = sec_str[:2] + first_str[2:]            # swap the first two character by index slicing..............
 new_sec_str = first_str[:2] + sec_str[2:]
 
 

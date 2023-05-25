@@ -5,11 +5,13 @@
 
 word = "Mukesh ambani is not a poor man"
 word1 = word.find("not")
-print(word1)
+# print(word1)                  index --> 17
+
 word2 = word.find("poor")
-print(word2)
-if word2>word1:
-    print(word.replace(word[word1:(word2+4)],'good'))
+# print(word2)                  index --> 23 
+
+if word2>word1:                 # 23 > 17
+    print(word.replace(word[word1:(word2+4)],'good'))           # word2+4 --->  17+4 == 21... 17,18,19,20......  21 doen't included
 
 
     

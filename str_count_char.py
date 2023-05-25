@@ -14,5 +14,3 @@ for i in str1:
 print("Count of all characters in GeeksforGeeks is :\n "
       + str(str_count))          
 
-
-
