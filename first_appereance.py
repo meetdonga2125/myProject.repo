@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Write a Python program to find the first appearance of the substring
 # 'not' and 'poor' from a given string, if 'not' follows the 'poor', replace the
 # whole 'not'...'poor' substring with 'good'. Return the resulting string.
@@ -14,4 +15,20 @@ if word2>word1:                 # 23 > 17
     print(word.replace(word[word1:(word2+4)],'good'))           # word2+4 --->  17+4 == 21... 17,18,19,20......  21 doen't included
 
 
+=======
+# Write a Python program to find the first appearance of the substring
+# 'not' and 'poor' from a given string, if 'not' follows the 'poor', replace the
+# whole 'not'...'poor' substring with 'good'. Return the resulting string.
+
+
+word = "Mukesh ambani is not a poor man"
+word1 = word.find("not")
+print(word1)
+word2 = word.find("poor")
+print(word2)
+if word2>word1:
+    print(word.replace(word[word1:(word2+4)],'good'))
+
+
+>>>>>>> c8d5258a8ce22b04f2afe5237fdbd3e2eb85f9e0
     
