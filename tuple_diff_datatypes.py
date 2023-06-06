@@ -3,5 +3,5 @@
 
 #Create a tuple with different data types
 
-tuplex = ("tuple", False, 3.2, 1, [1,2,3], "Meet", 0)
-print(tuplex)
+tuple_types = ("tuple", False, 3.2, 1, [1,2,3], "Meet", 0)
+print(tuple_types)

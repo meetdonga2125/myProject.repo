@@ -12,6 +12,7 @@ def unique_list(list1):
 unique_list([10,20,30,40,10,30,50])    
 
 
+#Method 2-----------------------------------------------------
 
 def unique_list(l):
   x = []

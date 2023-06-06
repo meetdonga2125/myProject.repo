@@ -130,9 +130,18 @@ print(list2)
 
 #eg.14
 
-for i in range(5):
-    for j in range(5):
-        print(j*"*")
+a = int(input("Enter a value: "))
+list3 = [i*a for i in range(1,11)]
+print(list3)
+
+
+#eg.15
+
+import random
+
+l = [random.randint(1,100) for i in range(11) ]
+print(l)
+
 
 
          

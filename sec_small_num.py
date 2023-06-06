@@ -14,3 +14,5 @@ l4 = l2.remove(l3)
 l2.sort()
 # Now the zero index value is min number bcz first small value we removed by l4 variable 
 print(l2[0])
+
+

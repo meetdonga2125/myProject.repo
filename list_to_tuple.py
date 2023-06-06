@@ -20,6 +20,7 @@ def convert(list):
 list = [1, 2, 3, 4]
 print(convert(list))
 
+#Method-3 Using lambda Function----------------------------
 
 t = lambda list1 : (tuple(list1))
 print((t([1,2,3,4,5,6])))

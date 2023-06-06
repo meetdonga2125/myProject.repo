@@ -27,7 +27,7 @@ print(0 in Tuple)
 # using loop
 
 # initialize tuple
-initi_tuple = (10, 4, 5, 8)
+initi_tuple = (10, 4, 5, 6,8)
 
 # printing original tuple
 print("The original tuple : " + str(initi_tuple))

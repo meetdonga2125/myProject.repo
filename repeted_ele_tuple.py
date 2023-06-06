@@ -7,7 +7,7 @@ for i in a:
     if i not in b:
         b.append(i)
     else:
-        repeated_tuple += i,
+        repeated_tuple += (i,)
         
 print("repeated tuple element is: ", repeated_tuple)    
 

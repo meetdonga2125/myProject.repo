@@ -12,7 +12,7 @@ def common_ele(a,b):
             
             return True
         
-    # return True    
+    return True    
 
 
         

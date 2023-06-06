@@ -3,8 +3,7 @@
 
 t = ("Mysql", 2, "Postgraze", "MongoDB", 5, 0.2, "Sql")
 
-t2 = reversed(t)
-print(t2)
+
 # First convert a tuple into list...........................
 l = list(t)
 

@@ -5,10 +5,10 @@
 # Using loop + list slicing
 
 # initializing list
-test_list = [5, 6, 3, 8, 2, 1, 7, 1]
+parent_list = [5, 6, 3, 8, 2, 1, 7, 1]
 
 # printing original list
-print("The original list : " + str(test_list))
+print("The original list : " + str(parent_list))
 
 # initializing sublist
 sublist = [8, 2, 1]
@@ -16,8 +16,8 @@ sublist = [8, 2, 1]
 # Check for Sublist in List
 # Using loop + list slicing
 res = False
-for idx in range(len(test_list) - len(sublist) + 1):
-	if test_list[idx: idx + len(sublist)] == sublist:
+for idx in range(len(parent_list) - len(sublist) + 1):
+	if parent_list[idx: idx + len(sublist)] == sublist:           # parent_list[3:6] == sublist
 		res = True
 		break
 
@@ -25,7 +25,9 @@ for idx in range(len(test_list) - len(sublist) + 1):
 print("Is sublist present in list ? : " + str(res))
 
 
-#Method-2---------------------------------------------------------
+
+#Method-2------------------------------------------------------------------------------
+
 
 # Python3 code to demonstrate working of
 # Check for Sublist in List
