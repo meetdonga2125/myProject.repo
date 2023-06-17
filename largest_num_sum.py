@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Write a Python function to get the largest number, smallest num and sum
 # of all from a list.
 
@@ -27,7 +27,7 @@ def sum_list(list1):
 result = [10,256,24,56,65,985,2561,2,2145,254,19]    
 sum_list(result)
 
-=======
+
 # Write a Python function to get the largest number, smallest num and sum
 # of all from a list.
 
@@ -56,4 +56,3 @@ def sum_list(list1):
 result = [10,256,24,56,65,985,2561,2,2145,254,19]    
 sum_list(result)
 
->>>>>>> c8d5258a8ce22b04f2afe5237fdbd3e2eb85f9e0

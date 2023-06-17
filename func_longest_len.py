@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Write a Python function that takes a list of words and returns the length
 # of the longest one.
 
@@ -19,7 +19,6 @@ print("\nLongest word: ",result[1])
 print("Length of the longest word: ",result[0])
   
   
-=======
 # Write a Python function that takes a list of words and returns the length
 # of the longest one.
 
@@ -47,4 +46,3 @@ print("\nLongest word: ",result[1])
 print("Length of the longest word: ",result[0])
   
   
->>>>>>> c8d5258a8ce22b04f2afe5237fdbd3e2eb85f9e0
