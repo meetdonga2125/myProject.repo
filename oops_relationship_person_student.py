@@ -35,7 +35,7 @@ person.display_info()
 student1 = Student("Jane Smith", 20, "456 Elm St", "S123456")
 student1.display_info()
 
-student2 = Student("Kartik", "23", "Gandhinagar adalaj", 'S456789')
+student2 = Student("Kartik", "23", "Gandhinagar", 'S456789')
 student2.display_info()
 
 # In this example, the "Student" class inherits from the "Person" class using the class Student(Person) statement. The "Student" class has an additional attribute, "student_id," which is specific to students. By using the super().__init__() method in the "Student" class's constructor, the "name," "age," and "address" attributes from the "Person" class are also initialized.
