@@ -30,5 +30,5 @@ def convert(s):
 	
 	
 # driver code
-s = ['g', 'e', 'e', 'k', 's', 'f', 'o', 'r', 'g', 'e', 'e', 'k', 's']
+s = ['p','y','t','h','o','n','l','a','n','g','u','a','g','e']
 print(convert(s))
