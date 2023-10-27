@@ -23,7 +23,7 @@ res.append(test_list[slice(start, len(test_list))])
 
 # printing result
 print("The splitted lists are:", res)
-#This code is contributed by Edula Vinay Kumar Reddy
+
 
 list = [1,2,3,4,56,6,78]
 list1 = list[slice(0,3)]
